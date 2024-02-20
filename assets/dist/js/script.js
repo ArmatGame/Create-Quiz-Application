@@ -255,8 +255,8 @@ async function getQuestions() {
     showResult(qCount);
   });
 
-  let QuizTime = 1;
-  let seconds = 40;
+  let QuizTime = 3;
+  let seconds = 59;
   QuizTime -= 1;
 
   let countDownVar = setInterval(() => {
